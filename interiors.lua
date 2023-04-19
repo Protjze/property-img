@@ -21,6 +21,15 @@ local interiors <const> = {
     weedfarm = {
         -- interior
         [1] = {key = 'wf_main', label = "wf_main", coords = vec4(1066.01, -3183.38, -39.16, 93.01), image = nil},
+    },
+
+    richards_majectic = {
+        -- interiors
+        [1] = {key = 'rm_ap_51', label = "Richards Majestic, Apt 51", coords = vec4(-907.13, -372.43, 109.44, 23.43), image = 'https://raw.githubusercontent.com/SUP2Ak/property-img/main/richards_majectic/rm_ap_51.webp'},
+        [2] = {key = 'rm_ap_4', label = "Richards Majestic, Apt 4", coords = vec4(-922.99, -378.56, 85.48, 217.47), image = 'https://raw.githubusercontent.com/SUP2Ak/property-img/main/richards_majectic/rm_ap_4.webp'},
+        [3] = {key = 'rm_ap_2', label = "Richards Majestic, Apt 2", coords = vec4(-912.96, -365.21, 114.28, 112.55), image = 'https://raw.githubusercontent.com/SUP2Ak/property-img/main/richards_majectic/rm_ap_2.webp'},
+        -- toit
+        [4] = {key = 'rm_heliport', label = "Richards Majestic Helipad", coords = vec4(-903.17, -369.94, 136.28, 116.96), image = 'https://raw.githubusercontent.com/SUP2Ak/property-img/main/richards_majectic/rm_heliport.webp'},
     }
 }
 
