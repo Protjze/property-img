@@ -1,12 +1,12 @@
 local interiors <const> = {
 
--- [x] = {key = 'picture_name', label = "name_ig", coords = vec4(-000, -000, 000, 000), image = true or false},
-
-
+    -- [x] = {key = 'picture_name', label = "name_ig", coords = vec4(-000, -000, 000, 000), image = true or false},
+    
+    
         -- Légal : Bureaux et entreprises
     legal = {
         -- Image principale
-        [1] = {key = 'office_arcadius', label = "Légal : Bureaux et entreprises", coords = vec4(, , , ), image = true},
+        -- [1] = {key = 'office_arcadius', label = "Légal : Bureaux et entreprises", coords = vec4(, , , ), image = true},
 
         -- Bureaux
         [1] = {key = 'document_forgery_office', label = "Bureaux administratifs", coords = vec4(1173.50, -3196.66, -39.01, 88.37), image = true},
@@ -28,7 +28,7 @@ local interiors <const> = {
         -- Appartements
     appartements = {
         -- Image principale
-        [1] = {key = 'eclipse_towers', label = "Appartements", coords = vec4(, , , ), image = true},
+        --[1] = {key = 'eclipse_towers', label = "Appartements", coords = vec4(, , , ), image = true},
 
         -- Low Cost Appartements
         [2] = {key = 'small_south_rockford_drive_13', label = "South Rockford Drive, Apt 13", coords = vec4(265.97, -1003.11, -99.01, 21.68), image = true},
@@ -73,12 +73,12 @@ local interiors <const> = {
         [25] = {key = 'weazel_plaza_26', label = "Weazel Plaza, Apt 26", coords = vec4(-890.69, -452.86, 95.46, 286.55), image = true}, 
         [26] = {key = 'weazel_plaza_70', label = "Weazel Plaza, Apt 70", coords = vec4(-890.67, -436.73, 121.60, 23.89), image = true}, 
         [27] = {key = 'weazel_plaza_101', label = "Weazel Plaza, Apt 101", coords = vec4(-907.69, -453.55, 126.53, 211.15), image = true}, 
-    }
+    },
 
         -- Maisons
     maisons = {
         -- Image principale
-        [1] = {key = '3677_Whispymound_Drive', label = "Maisons", coords = vec4(, , , ), image = true},
+        --[1] = {key = '3677_Whispymound_Drive', label = "Maisons", coords = vec4(, , , ), image = true},
 
         -- Maisons
         [2] = {key = '2044_North_Conker_Ave', label = "2044 North Conker Ave", coords = vec4(341.75, 437.58, 149.39, 122.12), image = true}, 
@@ -88,14 +88,14 @@ local interiors <const> = {
         [6] = {key = '2874_Hillcrest_Ave', label = "2874 Hillcrest Ave", coords = vec4(-859.85, 690.90, 152.86, 186.09), image = true}, 
         [7] = {key = '3655_Wild_Oats_Drive', label = "3655 Wild Oats Drive", coords = vec4(-174.33, 497.53, 137.67, 190.77), image = true}, 
         [8] = {key = '3677_Whispymound_Drive', label = "3677 Whispymound Drive", coords = vec4(117.26, 559.51, 184.30, 184.50), image = true}, 
-    }
+    },
         -- Garages
     garages = {
         -- Image principale
-        [1] = {key = 'medium_eclipse_towers', label = "Garages", coords = vec4(, , , ), image = true},
+        --[1] = {key = 'medium_eclipse_towers', label = "Garages", coords = vec4(, , , ), image = true},
 
         -- Petit garage
-        [2] = {key = 'small_1200_Route_68', label = "Petit garage", coords = vec4(172.74, -1005.87, -99.02, 0.50), veh = true, vehType = {['automobile'] = true, ['bike'] = true}, image = true},
+        [1] = {key = 'small_1200_Route_68', label = "Petit garage", coords = vec4(172.74, -1005.87, -99.02, 0.50), veh = true, vehType = {['automobile'] = true, ['bike'] = true}, image = true},
 
         -- Medium garage
         [2] = {key = 'medium_disused_factory_outlet', label = "Moyen industriel", coords = vec4(1048.57, -3097.13, -39.00, 274.83), veh = true, vehType = {['automobile'] = true, ['bike'] = true}, image = true},
@@ -115,16 +115,16 @@ local interiors <const> = {
 
     hangars = {
         -- Image principale
-        [1] = {key = 'medium_disused_factory_outlet', label = "Hangars", coords = vec4(, , , ), image = true},
+        --[1] = {key = 'medium_disused_factory_outlet', label = "Hangars", coords = vec4(, , , ), image = true},
 
         -- Petit hangar
-        [2] = {key = 'small_exit_pier_400', label = "Petit hangar", coords = vec4(1087.91, -3099.38, -39.00, 277.33), image = true},
+        [1] = {key = 'small_exit_pier_400', label = "Petit hangar", coords = vec4(1087.91, -3099.38, -39.00, 277.33), image = true},
 
         -- Moyen hangar
-        [3] = {key = 'medium_disused_factory_outlet', label = "Moyen hangar", coords = vec4(1048.57, -3097.13, -39.00, 274.83), image = true},
+        [2] = {key = 'medium_disused_factory_outlet', label = "Moyen hangar", coords = vec4(1048.57, -3097.13, -39.00, 274.83), image = true},
 
         -- Grand hangar
-        [4] = {key = 'large_logistics_depot', label = "Grand hangar", coords = vec4(992.82, -3097.80, -39.00, 269.20), image = true},
+        [3] = {key = 'large_logistics_depot', label = "Grand hangar", coords = vec4(992.82, -3097.80, -39.00, 269.20), image = true},
 
         -- PREMIUM hangar
         --[5] = {key = 'very_big_LSIA_hangar', label = "PREMIUM hangar", coords = vec4(-1267.02, -2982.38, -48.49, 179.76), image = true},
@@ -132,11 +132,11 @@ local interiors <const> = {
 
     illegal = {
         -- Image principale
-        [1] = {key = 'cocaine_lab', label = "Illégal", coords = vec4(, , , ), image = true},
+        --[1] = {key = 'cocaine_lab', label = "Illégal", coords = vec4(, , , ), image = true},
 
         -- Bureaux
-        [2] = {key = 'document_forgery_office', label = "Bureaux administratifs", coords = vec4(1173.50, -3196.66, -39.01, 88.37), image = true},
-        [3] = {key = 'solomon_office', label = "Bureau pharaon", coords = vec4(-1003.16, -477.9, 50.03, 98.47), image = true},
+        [1] = {key = 'document_forgery_office', label = "Bureaux administratifs", coords = vec4(1173.50, -3196.66, -39.01, 88.37), image = true},
+        [2] = {key = 'solomon_office', label = "Bureau pharaon", coords = vec4(-1003.16, -477.9, 50.03, 98.47), image = true},
 
         -- Drogues 
       -- ADMIN  [4] = {key = 'little_drug_lab_rv', label = "Petit laboratoire", coords = vec4(482.35, -2623.84, -49.06, 180.13), image = true},
@@ -158,25 +158,26 @@ local interiors <const> = {
 
     other = {
         -- Image principale
-        [1] = {key = 'fib', label = "Autres", coords = vec4(, , , ), image = true},
+        --[1] = {key = 'fib', label = "Autres", coords = vec4(, , , ), image = true},
 
         -- Casino
-        [2] = {key = 'casino', label = "Casino", coords = vec4(935.8, 46.88, 81.1, 133.58), image = true},     
-        [3] = {key = 'cinema', label = "Cinema", coords = vec4(-1436.89, -257.8, 16.09, 359.81), image = true},
-        [4] = {key = 'record_a_studios_2', label = "Studio d'enregistrement", coords = vec4(-1021.83, -92.39, -99.4, 2.11), image = true},
-        [5] = {key = 'split_sides_comedy_store', label = "Théatre", coords = vec4(-458.85, 284.66, 78.5, 266.75), image = true},  
-        [6] = {key = 'fib', label = "FBI", coords = vec4(136.14, -761.64, 242.15, 155.18), image = true},   
-        [7] = {key = 'submarine', label = "Sous-marin", coords = vec4(514.25, 4888.15, -62.6, 176.33), image = true},        
+        [1] = {key = 'casino', label = "Casino", coords = vec4(935.8, 46.88, 81.1, 133.58), image = true},     
+        [2] = {key = 'cinema', label = "Cinema", coords = vec4(-1436.89, -257.8, 16.09, 359.81), image = true},
+        [3] = {key = 'record_a_studios_2', label = "Studio d'enregistrement", coords = vec4(-1021.83, -92.39, -99.4, 2.11), image = true},
+        [4] = {key = 'split_sides_comedy_store', label = "Théatre", coords = vec4(-458.85, 284.66, 78.5, 266.75), image = true},  
+        [5] = {key = 'fib', label = "FBI", coords = vec4(136.14, -761.64, 242.15, 155.18), image = true},   
+        [6] = {key = 'submarine', label = "Sous-marin", coords = vec4(514.25, 4888.15, -62.6, 176.33), image = true},        
     },
 
     -- Premium for Admin ONLY
+    --[[
     premium = {
         -- Image principale 
-        [1] = {key = 'illegal_night_club', label = "Premium", coords = vec4(, , , ), image = true},
+        --[1] = {key = 'illegal_night_club', label = "Premium", coords = vec4(, , , ), image = true},
 
         -- Penthouse 
-        [2] = {key = 'app_penthouse_eclipse_towers_1', label = "Penthouse 1", coords = vec4(-786.82, 315.78, 217.63, 272.12), image = true},
-        [3] = {key = 'app_penthouse_eclipse_towers_2', label = "Penthouse 2", coords = vec4(-786.78, 315.74, 187.92, 270.71), image = true},
+        [1] = {key = 'app_penthouse_eclipse_towers_1', label = "Penthouse 1", coords = vec4(-786.82, 315.78, 217.63, 272.12), image = true},
+        [2] = {key = 'app_penthouse_eclipse_towers_2', label = "Penthouse 2", coords = vec4(-786.78, 315.74, 187.92, 270.71), image = true},
         [4] = {key = 'app_penthouse_eclipse_towers_3', label = "Penthouse 3", coords = vec4(-774.32, 341.98, 196.68, 94.64), image = true},
 
         -- Premiums garages
@@ -206,10 +207,10 @@ local interiors <const> = {
         [22] = {key = 'illegal_night_club', label = "Night Club", coords = vec4(-1569.37, -3017.17, -74.41, 0.32), veh = false, vehType = {['automobile'] = true, ['bike'] = true} , image = true}, 
         [23] = {key = 'illegal_arcade', label = "Magasin d'arcade", coords = vec4(758.76, -816.06, 26.29, 278.34), veh = false, vehType = {['automobile'] = true, ['bike'] = true} , image = true},
         [24] = {key = 'illegal_bunker', label = "Bunker", coords = vec4(890.55, -3245.86, -98.27, 91.61), veh = true, vehType = {['automobile'] = true, ['bike'] = true} , image = true}, 
-    }
+    },]]
 
     -- Helipad (creat the files in first !)
-   -- helipad = {
+    -- helipad = {
         -- toit des immeubles
      --   [1] = {key = '', label = "MazeBank Helipad", coords = vec4(-75.21, -824.83, 321.29, 157.83), image = false},
      --   [2] = {key = '', label = "Casino Helipad", coords = vec4(971.89, 51.91, 120.24,328.03), image = false},
@@ -219,5 +220,5 @@ local interiors <const> = {
      --   [6] = {key = '', label = "Arcadius Helipad", coords = vec4(-144.63, -599.27, 206.91,157.78), image = false},
     --}
 }
-
+    
 return interiors
